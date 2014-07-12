@@ -62,7 +62,7 @@ class Gem::Source
 
       return -1 if !other.uri
 
-      @uri.to_s <=> other.uri.to_s
+      0
     else
       nil
     end
